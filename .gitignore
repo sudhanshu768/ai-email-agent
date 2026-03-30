@@ -1,5 +1,18 @@
-email_agent_env/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+email_agent_env/
+venv/
+
+# Env files
 .env
-offline_packages/
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
